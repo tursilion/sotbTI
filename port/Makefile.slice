@@ -1,0 +1,45 @@
+# Vertical-slice build: non-banked EA5 image (fits 32K), runnable in Classic99.
+# The full game moves to the banked-cart build (Makefile) once all maps/CHR
+# banks are in.
+TMS9900_DIR ?= /home/tursi/newtms9900-gcc/newgcc9900/bin
+ELF2EA5_DIR ?= /home/tursi/gcc9900/bin
+LIBTI99     ?= /mnt/d/work/libti99ALL
+LIBGCC      ?= $(TMS9900_DIR)/../lib/gcc/tms9900/4.4.0
+
+CC      = $(TMS9900_DIR)/tms9900-gcc
+GAS     = $(TMS9900_DIR)/tms9900-as
+LD      = $(TMS9900_DIR)/tms9900-ld
+ELF2EA5 = $(ELF2EA5_DIR)/elf2ea5
+CLASSIC99_DSK1 ?= /mnt/d/classic99/DSK1/
+
+CFLAGS  = -Os -std=c99 -DTI99 -fno-builtin -fno-function-cse \
+          -ffunction-sections -fdata-sections -I$(LIBTI99) -Isrc -Igen
+LDFLAGS = --section-start .text=0xa000 --section-start .data=0x2080 -M \
+          --gc-sections -u _start
+
+CSRc = src/main.c src/maps_rt.c src/video.c src/entity.c src/dialogue.c \
+       gen/chr.c gen/maps.c gen/palette.c gen/dialogues.c
+OBJ  = crt0.o $(CSRc:.c=.o)
+
+all: sotb.ea5
+
+crt0.o: $(LIBTI99)/crt0_ea5.assembly
+	$(GAS) $< -o $@
+
+%.o: %.c
+	$(CC) -c $< $(CFLAGS) -o $@
+
+sotb.ea5: $(OBJ)
+	$(LD) $(OBJ) $(LDFLAGS) -L$(LIBTI99)/buildti -lti99 -L$(LIBGCC) -lgcc \
+	      -o sotb.ea5.elf > sotb.map
+	$(ELF2EA5) sotb.ea5.elf SOTB
+	@echo "built EA5 program SOTB (load files SOTB1..SOTBn)"
+
+install: sotb.ea5
+	-cp SOTB[1-9] $(CLASSIC99_DSK1) 2>/dev/null || true
+	@echo "copied SOTB parts to $(CLASSIC99_DSK1)"
+
+clean:
+	rm -f crt0.o src/*.o gen/*.o *.elf *.map SOTB SOTB? sotb.ea5?
+
+.PHONY: all clean install

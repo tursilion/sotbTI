@@ -1,0 +1,63 @@
+# Banked-cartridge build (Stage 2: full game, data across switched banks).
+# Regenerate data first:  BANKED=1 ALL=1 python3 tools/convert.py
+# Then:                    make -f Makefile.cart
+# Produces sotb.bin - load as a cartridge ROM in Classic99.
+TMS9900_DIR ?= /home/tursi/newtms9900-gcc/newgcc9900/bin
+LIBTI99     ?= /mnt/d/work/libti99ALL
+LIBGCC      ?= $(TMS9900_DIR)/../lib/gcc/tms9900/4.4.0
+ELF2CART    ?= /mnt/d/work/ti/Elf2BankedCart/elf2bankedcart
+CLASSIC99_DSK1 ?= /mnt/d/classic99/DSK1/
+
+CC  = $(TMS9900_DIR)/tms9900-gcc
+GAS = $(TMS9900_DIR)/tms9900-as
+LD  = $(TMS9900_DIR)/tms9900-ld
+
+CFLAGS  = -Os -std=c99 -DTI99 -fno-builtin -fno-function-cse \
+          -I$(LIBTI99) -Isrc -Igen
+DEPFLAGS = -MMD -MP          # emit .d files so header edits rebuild dependents
+LDFLAGS = -T gen/cart.ld -M
+
+BANK_OBJ = $(patsubst %.c,%.o,$(wildcard gen/bk*.c))
+
+# crt0 MUST be first in the object list
+OBJ = crt0_cart.o \
+      src/main.o src/maps_rt.o src/video.o src/entity.o src/script.o src/dialogue.o \
+      gen/tables.o gen/palette.o $(BANK_OBJ)
+
+all: sotb.bin
+
+data:
+	BANKED=1 ALL=1 python3 tools/convert.py
+
+crt0_cart.o: crt0_cart.asm
+	$(GAS) $< -o $@
+
+%.o: %.c
+	$(CC) -c $< $(CFLAGS) $(DEPFLAGS) -o $@
+
+-include $(OBJ:.o=.d)
+
+sotb.bin: $(OBJ) gen/cart.ld
+	$(LD) $(OBJ) $(LDFLAGS) -L$(LIBTI99)/buildti -lti99 -L$(LIBGCC) -lgcc \
+	      -o sotb.cart.elf > cart.map
+	$(ELF2CART) sotb.cart.elf sotb.bin
+
+# 16-bit walkthrough: the host-sim story test built for the TMS9900 and run
+# on the real cart code in tools/cartsim (prints ok/FAIL per check)
+WALK_OBJ = $(filter-out src/main.o,$(OBJ)) tools/hostsim/walkthrough.o
+sotb_walk.bin: $(WALK_OBJ) gen/cart.ld
+	$(LD) $(WALK_OBJ) $(LDFLAGS) -L$(LIBTI99)/buildti -lti99 -L$(LIBGCC) -lgcc \
+	      -o sotb_walk.elf > walk.map
+	$(ELF2CART) sotb_walk.elf sotb_walk.bin > /dev/null
+
+walktest: sotb_walk.bin
+	tools/cartsim/run.sh --walk
+
+install: sotb.bin
+	-cp sotb.bin $(CLASSIC99_DSK1) 2>/dev/null || true
+	@echo "copied sotb.bin to $(CLASSIC99_DSK1)"
+
+clean:
+	rm -f crt0_cart.o src/*.o src/*.d gen/*.o gen/*.d tools/hostsim/*.o tools/hostsim/*.d sotb_walk.* walk.map *.elf *.map sotb.bin
+
+.PHONY: all data install clean walktest

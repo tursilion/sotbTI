@@ -1,0 +1,642 @@
+Archive member included because of file (symbol)
+
+/mnt/d/work/libti99ALL/buildti/libti99.a(vdp_ints.o)
+                              crt0_cart.o (vdpinit)
+/mnt/d/work/libti99ALL/buildti/libti99.a(vdp_waitvint.o)
+                              src/main.o (vdpwaitvint)
+/mnt/d/work/libti99ALL/buildti/libti99.a(vdp_setmode.o)
+                              src/video.o (gImage)
+/mnt/d/work/libti99ALL/buildti/libti99.a(vdp_memset.o)
+                              src/video.o (vdpmemset)
+/mnt/d/work/libti99ALL/buildti/libti99.a(vdp_writestring.o)
+                              src/video.o (writestring)
+/mnt/d/work/libti99ALL/buildti/libti99.a(vdp_charsetlc.o)
+                              src/video.o (charsetlc)
+/mnt/d/work/libti99ALL/buildti/libti99.a(vdp_char.o)
+                              src/video.o (vdpchar)
+/mnt/d/work/libti99ALL/buildti/libti99.a(vdp_memcpy.o)
+                              src/video.o (vdpmemcpy)
+/mnt/d/work/libti99ALL/buildti/libti99.a(kscanfast.o)
+                              src/video.o (kscanfast)
+/mnt/d/work/libti99ALL/buildti/libti99.a(vdp_setgraphics.o)
+                              src/video.o (set_graphics)
+/mnt/d/work/libti99ALL/buildti/libti99.a(vdp_delsprite.o)
+                              src/video.o (delsprite)
+/mnt/d/work/libti99ALL/buildti/libti99.a(vdp_sprite.o)
+                              src/entity.o (sprite)
+/mnt/d/work/libti99ALL/buildti/libti99.a(joystfast.o)
+                              src/script.o (joystfast)
+/mnt/d/work/libti99ALL/buildti/libti99.a(vdp_screenchar.o)
+                              src/dialogue.o (vdpscreenchar)
+/mnt/d/work/libti99ALL/buildti/libti99.a(f18a_reset.o)
+                              /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_ints.o) (reset_f18a)
+/mnt/d/work/libti99ALL/buildti/libti99.a(f18a_lock.o)
+                              /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_ints.o) (lock_f18a)
+/mnt/d/work/libti99ALL/buildti/libti99.a(vdp_textdefs.o)
+                              /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_setgraphics.o) (nTextRow)
+/mnt/d/work/libti99ALL/buildti/libti99.a(vdp_vsetchar.o)
+                              /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_setgraphics.o) (vsetchar_base)
+/mnt/d/work/libti99ALL/buildti/libti99.a(vdp_gplvdp.o)
+                              /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_charsetlc.o) (gplvdp)
+/mnt/d/work/libti99ALL/buildti/libti99.a(vdp_scrnscrolldefault.o)
+                              /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_setgraphics.o) (scrn_scroll_default)
+/mnt/d/work/libti99ALL/buildti/libti99.a(vdp_scrnscroll.o)
+                              /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_setgraphics.o) (scrn_scroll)
+/mnt/d/work/libti99ALL/buildti/libti99.a(f18a_stopgpu.o)
+                              /mnt/d/work/libti99ALL/buildti/libti99.a(f18a_reset.o) (stopgpu_f18a)
+/mnt/d/work/libti99ALL/buildti/libti99.a(f18a_loadpal.o)
+                              /mnt/d/work/libti99ALL/buildti/libti99.a(f18a_reset.o) (loadpal_f18a)
+/mnt/d/work/libti99ALL/buildti/libti99.a(vdp_memread.o)
+                              /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_scrnscrolldefault.o) (vdpmemread)
+/mnt/d/work/libti99ALL/buildti/libti99.a(conio_getvram.o)
+                              /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_scrnscrolldefault.o) (conio_scrnCol)
+/mnt/d/work/libti99ALL/buildti/libti99.a(vdp_getscreenoffset.o)
+                              /mnt/d/work/libti99ALL/buildti/libti99.a(conio_getvram.o) (getscreenoffset)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+INIT             0x0000000000006000 0x0000000000000200 xr
+FIXED            0x000000000000a000 0x0000000000005e00 xrw
+STACK            0x0000000000002000 0x0000000000002000 xrw
+CART3            0x000000000000602e 0x0000000000001fd2 xr
+CART4            0x000000000000602e 0x0000000000001fd2 xr
+CART5            0x000000000000602e 0x0000000000001fd2 xr
+CART6            0x000000000000602e 0x0000000000001fd2 xr
+CART7            0x000000000000602e 0x0000000000001fd2 xr
+CART8            0x000000000000602e 0x0000000000001fd2 xr
+CART9            0x000000000000602e 0x0000000000001fd2 xr
+CART10           0x000000000000602e 0x0000000000001fd2 xr
+CART11           0x000000000000602e 0x0000000000001fd2 xr
+CART12           0x000000000000602e 0x0000000000001fd2 xr
+CART13           0x000000000000602e 0x0000000000001fd2 xr
+CART14           0x000000000000602e 0x0000000000001fd2 xr
+CART15           0x000000000000602e 0x0000000000001fd2 xr
+CART16           0x000000000000602e 0x0000000000001fd2 xr
+FLASH            0x0000000000000000 0x0000000001000000 xr
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD crt0_cart.o
+LOAD src/main.o
+LOAD src/maps_rt.o
+LOAD src/video.o
+LOAD src/entity.o
+LOAD src/script.o
+LOAD src/dialogue.o
+LOAD gen/tables.o
+LOAD gen/palette.o
+LOAD gen/bk03.o
+LOAD gen/bk04.o
+LOAD gen/bk05.o
+LOAD gen/bk06.o
+LOAD gen/bk07.o
+LOAD gen/bk08.o
+LOAD gen/bk09.o
+LOAD gen/bk10.o
+LOAD gen/bk11.o
+LOAD gen/bk12.o
+LOAD gen/bk13.o
+LOAD gen/bk14.o
+LOAD gen/bk15.o
+LOAD gen/bk16.o
+                0x000000000000a000                PROVIDE (__executable_start, 0xa000)
+                0x0000000000006000                . = 0x6000
+
+loader          0x0000000000006000      0x12e load address 0x0000000000000000
+ crt0_cart.o()
+ .text          0x0000000000006000      0x12e crt0_cart.o
+                0x000000000000602a                _start
+ .data          0x000000000000612e        0x0 crt0_cart.o
+ .bss           0x000000000000612e        0x0 crt0_cart.o
+                0x000000000000a000                . = 0xa000
+
+fixed           0x000000000000a000     0x4fa4 load address 0x000000000000012e
+ *(EXCLUDE_FILE(*bk[0-9][0-9].o *crt0_cart.o) .text)
+ .text          0x000000000000a000       0x44 src/main.o
+                0x000000000000a000                main
+ .text          0x000000000000a044      0x32c src/maps_rt.o
+                0x000000000000a080                camera_reset
+                0x000000000000a0b2                camera_follow
+                0x000000000000a0a4                camera_release
+                0x000000000000a250                map_load
+                0x000000000000a08a                camera_hold
+                0x000000000000a044                is_blocked
+ .text          0x000000000000a370      0x660 src/video.o
+                0x000000000000a53a                set_room_colors
+                0x000000000000a372                video_blank
+                0x000000000000a382                video_unblank
+                0x000000000000a3e8                credits_begin
+                0x000000000000a44c                draw_room
+                0x000000000000a672                room_tint
+                0x000000000000a392                credits_scroll
+                0x000000000000a7b0                video_init
+                0x000000000000a4b0                video_load_chr
+                0x000000000000a6f6                title_screen
+ .text          0x000000000000a9d0     0x16c8 src/entity.o
+                0x000000000000abee                face_toward
+                0x000000000000ad92                find_ent
+                0x000000000000aa7e                sprites_hide_all
+                0x000000000000bfd8                move_collide
+                0x000000000000ae5c                load_map_direct
+                0x000000000000ae88                ents_clear
+                0x000000000000bc1a                enter_map
+                0x000000000000ad4c                freeze_all
+                0x000000000000ad76                thaw_all
+                0x000000000000aba4                ent_overlap
+                0x000000000000bb9e                screen_flash
+                0x000000000000ae92                ent_spawn
+                0x000000000000aa4c                sprites_end
+                0x000000000000bdbc                ingame_update
+                0x000000000000ac60                pony_motion
+                0x000000000000aa40                sprites_begin
+                0x000000000000acbc                step_to
+                0x000000000000b5c4                ingame_draw
+                0x000000000000bf5e                box_hits
+                0x000000000000ae6e                game_init
+                0x000000000000aaa4                sprite_color_mask
+                0x000000000000ab88                rnd
+                0x000000000000adbc                portal_jump
+ .text          0x000000000000c098     0x1e0c src/script.o
+                0x000000000000c0d6                script_interact
+                0x000000000000c098                applebloom_wait
+                0x000000000000c410                script_start
+                0x000000000000c834                script_update
+ .text          0x000000000000dea4      0x440 src/dialogue.o
+                0x000000000000e222                dialogue_start
+                0x000000000000e0ec                dialogue_update
+                0x000000000000deaa                dialogue_active
+                0x000000000000dea4                dialogue_portrait
+ .text          0x000000000000e2e4      0x2f5 gen/tables.o
+                0x000000000000e304                chr_spr_phys
+                0x000000000000e5d8                skel_phys
+                0x000000000000e474                map_phys
+                0x000000000000e3f4                map_bg2
+                0x000000000000e354                map_bg
+                0x000000000000e394                map_bg_phys
+                0x000000000000e3b4                map_bg_len
+                0x000000000000e314                maps
+                0x000000000000e454                map_bg2_bank
+                0x000000000000e5b4                dlg_phys
+                0x000000000000e434                map_bg2_phys
+                0x000000000000e2e4                chr_spr
+                0x000000000000e494                dialogues
+ .text          0x000000000000e5d9      0x120 gen/palette.o
+                0x000000000000e619                ti_near
+                0x000000000000e5d9                nes_to_ti
+ *fill*         0x000000000000e6f9        0x1 00
+ .text          0x000000000000e6fa       0xac /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_ints.o)
+                0x000000000000e6fa                setUserIntHook
+                0x000000000000e70c                vdpinit
+                0x000000000000e79e                REG9938Init
+                0x000000000000e700                clearUserIntHook
+ .text          0x000000000000e7a6       0x2e /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_waitvint.o)
+                0x000000000000e7a8                vdpwaitvint
+ .text          0x000000000000e7d4        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_setmode.o)
+ .text          0x000000000000e7d4       0x22 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_memset.o)
+                0x000000000000e7d4                vdpmemset
+ .text          0x000000000000e7f6       0xaa /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_writestring.o)
+                0x000000000000e7f6                writestring
+ .text          0x000000000000e8a0      0x14a /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_charsetlc.o)
+                0x000000000000e8f2                TrueLowerCase
+                0x000000000000e8a2                charsetlc
+ .text          0x000000000000e9ea       0x18 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_char.o)
+                0x000000000000e9ea                vdpchar
+ .text          0x000000000000ea02       0x24 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_memcpy.o)
+                0x000000000000ea02                vdpmemcpy
+ .text          0x000000000000ea26      0x118 /mnt/d/work/libti99ALL/buildti/libti99.a(kscanfast.o)
+                0x000000000000ea2a                kscanfast
+                0x000000000000eb0e                keymap
+ .text          0x000000000000eb3e       0xf6 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_setgraphics.o)
+                0x000000000000eb4a                set_graphics_raw
+                0x000000000000ec18                set_graphics
+ .text          0x000000000000ec34       0x26 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_delsprite.o)
+                0x000000000000ec36                delsprite
+ .text          0x000000000000ec5a       0x28 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_sprite.o)
+                0x000000000000ec5a                sprite
+ .text          0x000000000000ec82       0x68 /mnt/d/work/libti99ALL/buildti/libti99.a(joystfast.o)
+                0x000000000000ec84                joystfast
+ .text          0x000000000000ecea       0x1c /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_screenchar.o)
+                0x000000000000ecea                vdpscreenchar
+ .text          0x000000000000ed06       0x6e /mnt/d/work/libti99ALL/buildti/libti99.a(f18a_reset.o)
+                0x000000000000ed0c                reset_f18a
+                0x000000000000ed54                F18A_INITIAL
+ .text          0x000000000000ed74       0x12 /mnt/d/work/libti99ALL/buildti/libti99.a(f18a_lock.o)
+                0x000000000000ed76                lock_f18a
+ .text          0x000000000000ed86        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_textdefs.o)
+ .text          0x000000000000ed86       0x1c /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_vsetchar.o)
+                0x000000000000ed86                vsetchar_base
+ .text          0x000000000000eda2       0x82 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_gplvdp.o)
+                0x000000000000eda2                gplvdp
+ .text          0x000000000000ee24       0xc4 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_scrnscrolldefault.o)
+                0x000000000000ee26                scrn_scroll_default
+ .text          0x000000000000eee8        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_scrnscroll.o)
+ .text          0x000000000000eee8       0x12 /mnt/d/work/libti99ALL/buildti/libti99.a(f18a_stopgpu.o)
+                0x000000000000eeea                stopgpu_f18a
+ .text          0x000000000000eefa       0x38 /mnt/d/work/libti99ALL/buildti/libti99.a(f18a_loadpal.o)
+                0x000000000000eefc                loadpal_f18a
+ .text          0x000000000000ef32       0x1e /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_memread.o)
+                0x000000000000ef32                vdpmemread
+ .text          0x000000000000ef50       0x18 /mnt/d/work/libti99ALL/buildti/libti99.a(conio_getvram.o)
+                0x000000000000ef50                conio_getvram
+ .text          0x000000000000ef68       0x3c /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_getscreenoffset.o)
+                0x000000000000ef68                getscreenoffset
+ *(EXCLUDE_FILE(*bk[0-9][0-9].o *crt0_cart.o) .text.*)
+ *(EXCLUDE_FILE(*bk[0-9][0-9].o *crt0_cart.o) .rodata)
+ *(EXCLUDE_FILE(*bk[0-9][0-9].o *crt0_cart.o) .rodata.*)
+
+bank3           0x000000000000602e     0x1fcf load address 0x00000000000050d2
+ *bk03.o(.text .text.* .rodata .rodata.*)
+ .text          0x000000000000602e     0x1fcf gen/bk03.o
+                0x000000000000602e                map_19
+                0x00000000000078a2                map_2
+                0x0000000000006d77                map_24
+
+bank4           0x000000000000602e     0x1fce load address 0x00000000000070a1
+ *bk04.o(.text .text.* .rodata .rodata.*)
+ .text          0x000000000000602e     0x1fce gen/bk04.o
+                0x0000000000007fd0                dmsg8
+                0x00000000000073a0                map_4
+                0x00000000000069e7                map_18
+                0x0000000000007fd3                dsecond8
+                0x0000000000007fd2                dfirst8
+                0x000000000000602e                map_6
+                0x0000000000007ccf                map_bg_3
+
+bank5           0x000000000000602e     0x1fc1 load address 0x000000000000906f
+ *bk05.o(.text .text.* .rodata .rodata.*)
+ .text          0x000000000000602e     0x1fc1 gen/bk05.o
+                0x000000000000702e                chr_bank2
+                0x000000000000602e                chr_bank0
+                0x000000000000682e                chr_bank1
+                0x000000000000782e                map_27
+
+bank6           0x000000000000602e     0x1fc0 load address 0x000000000000b030
+ *bk06.o(.text .text.* .rodata .rodata.*)
+ .text          0x000000000000602e     0x1fc0 gen/bk06.o
+                0x000000000000782e                map_bg_0
+                0x000000000000702e                chr_bank5
+                0x000000000000602e                chr_bank3
+                0x000000000000682e                chr_bank4
+
+bank7           0x000000000000602e     0x1fd1 load address 0x000000000000cff0
+ *bk07.o(.text .text.* .rodata .rodata.*)
+ .text          0x000000000000602e     0x1fd1 gen/bk07.o
+                0x0000000000007f3b                dsecond4
+                0x000000000000682e                chr_bank7
+                0x000000000000702e                chr_bank8
+                0x0000000000007f2a                dfirst4
+                0x000000000000782e                map_5
+                0x0000000000007f20                dmsg4
+                0x000000000000602e                chr_bank6
+
+bank8           0x000000000000602e     0x1fc7 load address 0x000000000000efc1
+ *bk08.o(.text .text.* .rodata .rodata.*)
+ .text          0x000000000000602e     0x1fc7 gen/bk08.o
+                0x000000000000602e                chr_bank9
+                0x0000000000007ef5                map_bg_26
+                0x000000000000682e                chr_bank10
+                0x000000000000782e                map_23
+                0x000000000000702e                chr_bank11
+
+bank9           0x000000000000602e     0x1fc7 load address 0x0000000000010f88
+ *bk09.o(.text .text.* .rodata .rodata.*)
+ .text          0x000000000000602e     0x1fc7 gen/bk09.o
+                0x000000000000602e                chr_bank12
+                0x0000000000007ed0                dmsg10
+                0x0000000000007ed8                dfirst10
+                0x000000000000702e                chr_bank14
+                0x0000000000007ee2                dsecond10
+                0x000000000000682e                chr_bank13
+                0x000000000000782e                map_7
+
+bank10          0x000000000000602e     0x1fbf load address 0x0000000000012f4f
+ *bk10.o(.text .text.* .rodata .rodata.*)
+ .text          0x000000000000602e     0x1fbf gen/bk10.o
+                0x0000000000007ced                map_bg_8
+                0x000000000000702d                map_10
+                0x00000000000076a6                map_9
+                0x000000000000602e                chr_bank15
+                0x000000000000682e                map_0
+
+bank11          0x000000000000602e     0x1fcf load address 0x0000000000014f0e
+ *bk11.o(.text .text.* .rodata .rodata.*)
+ .text          0x000000000000602e     0x1fcf gen/bk11.o
+                0x0000000000007f8e                dmsg6
+                0x000000000000663b                map_25
+                0x0000000000007f92                dfirst6
+                0x0000000000007fa3                dsecond6
+                0x000000000000602e                map_20
+                0x0000000000006c0e                map_bg_18
+                0x0000000000007765                map_17
+                0x00000000000071ce                map_26
+                0x0000000000007cce                map_bg_24
+
+bank12          0x000000000000602e     0x1fcd load address 0x0000000000016edd
+ *bk12.o(.text .text.* .rodata .rodata.*)
+ .text          0x000000000000602e     0x1fcd gen/bk12.o
+                0x00000000000079a2                map_8
+                0x000000000000658f                map_bg_19
+                0x0000000000007fc4                dsecond14
+                0x000000000000602e                map_21
+                0x0000000000007fba                dmsg14
+                0x00000000000074d1                map_3
+                0x0000000000007fbc                dfirst14
+                0x0000000000007e59                map_bg2_11
+                0x0000000000006fec                map_11
+                0x0000000000006acf                map_12
+
+bank13          0x000000000000602e     0x1fcc load address 0x0000000000018eaa
+ *bk13.o(.text .text.* .rodata .rodata.*)
+ .text          0x000000000000602e     0x1fcc gen/bk13.o
+                0x00000000000070fc                map_13
+                0x000000000000691a                map_15
+                0x00000000000068fe                dfirst1
+                0x0000000000007bc0                map_bg_29
+                0x000000000000785d                map_28
+                0x0000000000006489                map_16
+                0x00000000000068d0                dmsg1
+                0x000000000000602e                map_14
+                0x0000000000006d0d                map_22
+                0x000000000000690f                dsecond1
+                0x00000000000074dd                map_bg_1
+
+bank14          0x000000000000602e     0x1fb1 load address 0x000000000001ae76
+ *bk14.o(.text .text.* .rodata .rodata.*)
+ .text          0x000000000000602e     0x1fb1 gen/bk14.o
+                0x00000000000065e7                map_bg_7
+                0x0000000000007ddf                map_bg_12
+                0x000000000000719b                map_31
+                0x0000000000006867                map_bg_23
+                0x0000000000006d34                map_bg_2
+                0x0000000000006367                map_bg_6
+                0x0000000000007bdf                map_bg_10
+                0x0000000000006ae7                map_30
+                0x00000000000077df                map_bg_5
+                0x00000000000079df                map_bg_9
+                0x000000000000602e                map_1
+                0x00000000000073be                map_bg2_12
+                0x00000000000075df                map_bg_4
+                0x0000000000006f74                map_29
+
+bank15          0x000000000000602e     0x1fcc load address 0x000000000001ce27
+ *bk15.o(.text .text.* .rodata .rodata.*)
+ .text          0x000000000000602e     0x1fcc gen/bk15.o
+                0x0000000000007672                map_bg_25
+                0x0000000000007aa0                dmsg3
+                0x0000000000007a7e                dmsg34
+                0x0000000000006acf                map_bg2_14
+                0x00000000000077b2                map_bg_30
+                0x0000000000007a46                dsecond30
+                0x00000000000072b2                map_bg_15
+                0x00000000000065ee                map_bg_22
+                0x0000000000007a84                dfirst34
+                0x0000000000006d91                map_bg2_16
+                0x0000000000007a16                dmsg12
+                0x00000000000078f2                dmsg2
+                0x0000000000007905                dsecond2
+                0x0000000000007a59                dsecond17
+                0x0000000000007a73                dsecond33
+                0x0000000000007a38                dmsg30
+                0x00000000000073f2                map_bg_16
+                0x000000000000602e                map_bg_20
+                0x000000000000696e                map_bg2_13
+                0x0000000000007a95                dsecond34
+                0x000000000000622e                skel_chr
+                0x0000000000007aa4                dfirst3
+                0x0000000000006ef2                map_bg_11
+                0x0000000000007a48                dmsg17
+                0x00000000000078fe                dfirst2
+                0x0000000000007a4e                dfirst17
+                0x0000000000007532                map_bg_17
+                0x0000000000007a40                dfirst30
+                0x0000000000007916                map_bg_28
+                0x0000000000007032                map_bg_13
+                0x0000000000007a64                dmsg33
+                0x0000000000007172                map_bg_14
+                0x0000000000007a6e                dfirst33
+                0x0000000000006c30                map_bg2_15
+                0x0000000000007a26                dfirst12
+                0x00000000000067ae                map_bg_27
+                0x0000000000007a2c                dsecond12
+                0x0000000000007ab5                dsecond3
+                0x000000000000642e                map_bg_21
+
+bank16          0x000000000000602e      0x8fc load address 0x000000000001edf3
+ *bk16.o(.text .text.* .rodata .rodata.*)
+ .text          0x000000000000602e      0x8fc gen/bk16.o
+                0x0000000000006106                dfirst22
+                0x00000000000061d4                dmsg9
+                0x00000000000060c8                dfirst18
+                0x0000000000006034                dfirst16
+                0x0000000000006074                dsecond13
+                0x000000000000606e                dfirst13
+                0x00000000000061d7                dsecond9
+                0x0000000000006080                dmsg31
+                0x000000000000611c                dsecond29
+                0x00000000000061d3                dsecond35
+                0x000000000000603e                dsecond16
+                0x0000000000006107                dsecond22
+                0x000000000000615c                dmsg19
+                0x000000000000604a                dmsg24
+                0x0000000000006093                dsecond32
+                0x000000000000615f                dsecond19
+                0x0000000000006112                dmsg29
+                0x0000000000006088                dfirst31
+                0x0000000000006140                dfirst7
+                0x000000000000609e                dmsg0
+                0x00000000000060a3                dsecond0
+                0x0000000000006102                dmsg22
+                0x00000000000060f2                dmsg27
+                0x00000000000061d6                dfirst9
+                0x0000000000006151                dsecond7
+                0x00000000000060d4                dfirst26
+                0x000000000000613a                dsecond11
+                0x00000000000061ad                dsecond20
+                0x00000000000060ba                dfirst23
+                0x00000000000061ac                dfirst20
+                0x000000000000615e                dfirst19
+                0x00000000000061ba                dfirst5
+                0x0000000000006100                dsecond27
+                0x0000000000006116                dfirst29
+                0x00000000000060c6                dmsg18
+                0x000000000000608a                dmsg32
+                0x00000000000060b4                dmsg23
+                0x000000000000612e                dmsg11
+                0x00000000000060d0                dmsg26
+                0x000000000000608e                dfirst32
+                0x00000000000060bb                dsecond23
+                0x0000000000006130                dfirst11
+                0x000000000000613c                dmsg7
+                0x00000000000060f6                dfirst27
+                0x000000000000605a                dfirst24
+                0x00000000000060a2                dfirst0
+                0x00000000000061aa                dmsg20
+                0x00000000000060a8                dfirst21
+                0x00000000000060df                dsecond26
+                0x00000000000060e0                dmsg15
+                0x00000000000060ec                dsecond15
+                0x00000000000060e4                dfirst15
+                0x00000000000061cb                dsecond5
+                0x0000000000006089                dsecond31
+                0x00000000000060a9                dsecond21
+                0x00000000000061cc                dmsg35
+                0x00000000000060ce                dsecond18
+                0x000000000000605b                dsecond24
+                0x000000000000616a                map_bg_31
+                0x000000000000611e                dmsg25
+                0x00000000000061b8                dmsg5
+                0x00000000000061ce                dfirst35
+                0x00000000000060a4                dmsg21
+                0x000000000000612c                dsecond25
+                0x000000000000602e                dmsg16
+                0x0000000000006066                dmsg13
+                0x0000000000006122                dfirst25
+                0x0000000000002080                . = 0x2080
+
+.data           0x0000000000002000       0x14 load address 0x000000000001f6ef
+ *(.data)
+ .data          0x0000000000002000        0x0 src/main.o
+ .data          0x0000000000002000        0x4 src/maps_rt.o
+                0x0000000000002000                cur_map
+ .data          0x0000000000002004        0x0 src/video.o
+ .data          0x0000000000002004        0x4 src/entity.o
+                0x0000000000002004                pending_map
+ .data          0x0000000000002008        0x0 src/script.o
+ .data          0x0000000000002008        0x0 src/dialogue.o
+ .data          0x0000000000002008        0x0 gen/tables.o
+ .data          0x0000000000002008        0x0 gen/palette.o
+ .data          0x0000000000002008        0x0 gen/bk03.o
+ .data          0x0000000000002008        0x0 gen/bk04.o
+ .data          0x0000000000002008        0x0 gen/bk05.o
+ .data          0x0000000000002008        0x0 gen/bk06.o
+ .data          0x0000000000002008        0x0 gen/bk07.o
+ .data          0x0000000000002008        0x0 gen/bk08.o
+ .data          0x0000000000002008        0x0 gen/bk09.o
+ .data          0x0000000000002008        0x0 gen/bk10.o
+ .data          0x0000000000002008        0x0 gen/bk11.o
+ .data          0x0000000000002008        0x0 gen/bk12.o
+ .data          0x0000000000002008        0x0 gen/bk13.o
+ .data          0x0000000000002008        0x0 gen/bk14.o
+ .data          0x0000000000002008        0x0 gen/bk15.o
+ .data          0x0000000000002008        0x0 gen/bk16.o
+ .data          0x0000000000002008        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_ints.o)
+ .data          0x0000000000002008        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_waitvint.o)
+ .data          0x0000000000002008        0x6 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_setmode.o)
+                0x0000000000002008                gColor
+                0x000000000000200c                gSprite
+                0x000000000000200a                gPattern
+ .data          0x000000000000200e        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_memset.o)
+ .data          0x000000000000200e        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_writestring.o)
+ .data          0x000000000000200e        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_charsetlc.o)
+ .data          0x000000000000200e        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_char.o)
+ .data          0x000000000000200e        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_memcpy.o)
+ .data          0x000000000000200e        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(kscanfast.o)
+ .data          0x000000000000200e        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_setgraphics.o)
+ .data          0x000000000000200e        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_delsprite.o)
+ .data          0x000000000000200e        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_sprite.o)
+ .data          0x000000000000200e        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(joystfast.o)
+ .data          0x000000000000200e        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_screenchar.o)
+ .data          0x000000000000200e        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(f18a_reset.o)
+ .data          0x000000000000200e        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(f18a_lock.o)
+ .data          0x000000000000200e        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_textdefs.o)
+ .data          0x000000000000200e        0x2 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_vsetchar.o)
+                0x000000000000200e                vsetchar
+ .data          0x0000000000002010        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_gplvdp.o)
+ .data          0x0000000000002010        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_scrnscrolldefault.o)
+ .data          0x0000000000002010        0x2 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_scrnscroll.o)
+                0x0000000000002010                scrn_scroll
+ .data          0x0000000000002012        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(f18a_stopgpu.o)
+ .data          0x0000000000002012        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(f18a_loadpal.o)
+ .data          0x0000000000002012        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_memread.o)
+ .data          0x0000000000002012        0x2 /mnt/d/work/libti99ALL/buildti/libti99.a(conio_getvram.o)
+                0x0000000000002012                conio_scrnCol
+ .data          0x0000000000002014        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_getscreenoffset.o)
+ *(.data.*)
+
+.bss            0x0000000000002014     0x1a2a load address 0x000000000001f703
+ *(.bss)
+ .bss           0x0000000000002014        0x0 src/main.o
+ .bss           0x0000000000002014     0x118e src/maps_rt.o
+                0x0000000000002f18                collision
+                0x0000000000002018                nametable
+                0x00000000000030f8                map_chr
+                0x00000000000031a0                cam_mode
+                0x000000000000311a                map_border
+                0x000000000000311e                cam_ty
+                0x0000000000003120                globals
+                0x00000000000030fa                map_colors
+                0x000000000000311c                cam_tx
+ .bss           0x00000000000031a2       0x28 src/video.o
+                0x00000000000031a2                room_bg_tint
+                0x00000000000031aa                room_colors
+                0x00000000000031a8                keep_backdrop
+                0x00000000000031a6                room_keep_black
+                0x00000000000031a4                room_fg_tint
+ .bss           0x00000000000031ca      0x850 src/entity.o
+                0x0000000000003a18                player
+                0x0000000000003a16                entity_count
+                0x0000000000003216                entity
+                0x0000000000003212                fire_locked
+                0x0000000000003214                portal_cd
+ .bss           0x0000000000003a1a        0x0 src/script.o
+ .bss           0x0000000000003a1a       0x12 src/dialogue.o
+ .bss           0x0000000000003a2c        0x0 gen/tables.o
+ .bss           0x0000000000003a2c        0x0 gen/palette.o
+ .bss           0x0000000000003a2c        0x0 gen/bk03.o
+ .bss           0x0000000000003a2c        0x0 gen/bk04.o
+ .bss           0x0000000000003a2c        0x0 gen/bk05.o
+ .bss           0x0000000000003a2c        0x0 gen/bk06.o
+ .bss           0x0000000000003a2c        0x0 gen/bk07.o
+ .bss           0x0000000000003a2c        0x0 gen/bk08.o
+ .bss           0x0000000000003a2c        0x0 gen/bk09.o
+ .bss           0x0000000000003a2c        0x0 gen/bk10.o
+ .bss           0x0000000000003a2c        0x0 gen/bk11.o
+ .bss           0x0000000000003a2c        0x0 gen/bk12.o
+ .bss           0x0000000000003a2c        0x0 gen/bk13.o
+ .bss           0x0000000000003a2c        0x0 gen/bk14.o
+ .bss           0x0000000000003a2c        0x0 gen/bk15.o
+ .bss           0x0000000000003a2c        0x0 gen/bk16.o
+ .bss           0x0000000000003a2c        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_ints.o)
+ .bss           0x0000000000003a2c        0x1 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_waitvint.o)
+                0x0000000000003a2c                gSaveIntCnt
+ *fill*         0x0000000000003a2d        0x1 00
+ .bss           0x0000000000003a2e        0x4 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_setmode.o)
+                0x0000000000003a2e                gImage
+                0x0000000000003a30                gSpritePat
+ .bss           0x0000000000003a32        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_memset.o)
+ .bss           0x0000000000003a32        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_writestring.o)
+ .bss           0x0000000000003a32        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_charsetlc.o)
+ .bss           0x0000000000003a32        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_char.o)
+ .bss           0x0000000000003a32        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_memcpy.o)
+ .bss           0x0000000000003a32        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(kscanfast.o)
+ .bss           0x0000000000003a32        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_setgraphics.o)
+ .bss           0x0000000000003a32        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_delsprite.o)
+ .bss           0x0000000000003a32        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_sprite.o)
+ .bss           0x0000000000003a32        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(joystfast.o)
+ .bss           0x0000000000003a32        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_screenchar.o)
+ .bss           0x0000000000003a32        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(f18a_reset.o)
+ .bss           0x0000000000003a32        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(f18a_lock.o)
+ .bss           0x0000000000003a32        0x8 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_textdefs.o)
+                0x0000000000003a32                nTextRow
+                0x0000000000003a34                nTextEnd
+                0x0000000000003a38                nTextFlags
+                0x0000000000003a36                nTextPos
+ .bss           0x0000000000003a3a        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_vsetchar.o)
+ .bss           0x0000000000003a3a        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_gplvdp.o)
+ .bss           0x0000000000003a3a        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_scrnscrolldefault.o)
+ .bss           0x0000000000003a3a        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_scrnscroll.o)
+ .bss           0x0000000000003a3a        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(f18a_stopgpu.o)
+ .bss           0x0000000000003a3a        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(f18a_loadpal.o)
+ .bss           0x0000000000003a3a        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_memread.o)
+ .bss           0x0000000000003a3a        0x4 /mnt/d/work/libti99ALL/buildti/libti99.a(conio_getvram.o)
+                0x0000000000003a3a                conio_x
+                0x0000000000003a3c                conio_y
+ .bss           0x0000000000003a3e        0x0 /mnt/d/work/libti99ALL/buildti/libti99.a(vdp_getscreenoffset.o)
+ *(.bss.*)
+ *(COMMON)
+                0x0000000000003a3e                _end = .
+LOAD /mnt/d/work/libti99ALL/buildti/libti99.a
+LOAD /home/tursi/newtms9900-gcc/newgcc9900/bin/../lib/gcc/tms9900/4.4.0/libgcc.a
+OUTPUT(sotb.cart.elf elf32-tms9900)
